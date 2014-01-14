@@ -1,0 +1,53 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=javadns/src\/main\/java<com.java.bin{DummyDNS.java[DummyDNS"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="252"/>
+      <y="48"/>
+   </type>
+   <type>
+      <name="=javadns/src\/main\/java<com.java.bin{DummyDNSThread.java[DummyDNSThread"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="44"/>
+      <y="209"/>
+   </type>
+   <type>
+      <name="=javadns/src\/main\/java<com.java.bin{DummyGUI.java[DummyGUI"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="468"/>
+      <y="220"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=javadns/src\/main\/java<com.java.bin{DummyDNS.java[DummyDNS"/>
+      <targetType="=javadns/src\/main\/java<com.java.bin{DummyGUI.java[DummyGUI"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=javadns/src\/main\/java<com.java.bin{DummyDNS.java[DummyDNS"/>
+      <targetType="=javadns/src\/main\/java<com.java.bin{DummyDNSThread.java[DummyDNSThread"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=javadns/C:\/Program Files\/Java\/jdk1.6.0_17\/jre\/lib\/rt.jar<java.lang(Runnable.class[Runnable"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="46"/>
+      <y="372"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
+      <sourceType="=javadns/src\/main\/java<com.java.bin{DummyDNSThread.java[DummyDNSThread"/>
+      <targetType="=javadns/C:\/Program Files\/Java\/jdk1.6.0_17\/jre\/lib\/rt.jar<java.lang(Runnable.class[Runnable"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
