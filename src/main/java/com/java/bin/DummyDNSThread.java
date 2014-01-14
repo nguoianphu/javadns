@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class DummyDNSThread implements Runnable {
 
-	public DummyDNSThread() throws IOException {
+	public DummyDNSThread(String name) throws IOException {
 		super();
 	}
 

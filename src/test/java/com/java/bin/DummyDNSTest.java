@@ -7,6 +7,7 @@ public class DummyDNSTest extends TestCase{
 	public void testDummyDNSGUI() {
 		DummyDNS dummyDNS = new DummyDNS(new String[] {""});
 		
+		assertNotNull(dummyDNS);
 	}
 
 }
