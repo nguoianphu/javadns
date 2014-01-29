@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class DummyDNS {
 
-	public DummyDNS(String[] args) {
+	public void init(String[] args) {
 
 		if (args.length < 1) {
 

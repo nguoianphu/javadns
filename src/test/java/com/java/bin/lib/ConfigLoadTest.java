@@ -12,6 +12,8 @@ public class ConfigLoadTest extends TestCase {
 	public void testLoadName() {
 		ConfigLoad config = new ConfigLoad();
 		int items = config.loadname("src\\config.txt");
+
+		// count localhost so that plus 1
 		assertEquals(4, items);
 	}
 

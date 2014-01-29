@@ -8,12 +8,13 @@ import com.java.bin.DummyDNS;
  */
 public class App 
 {
-    public App() {
-	}
+//    public App() {
+//	}
 
 	public static void main( String[] args )
     {
-    	DummyDNS dummyDNS = new DummyDNS(args);
+    	DummyDNS dummyDNS = new DummyDNS();
+    	dummyDNS.init(args);
         System.out.println( "Hello World!" );
     }
 }

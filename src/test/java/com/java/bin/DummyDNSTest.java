@@ -5,7 +5,8 @@ import junit.framework.TestCase;
 public class DummyDNSTest extends TestCase{
 	
 	public void testDummyDNSGUI() {
-		DummyDNS dummyDNS = new DummyDNS(new String[] {""});
+		DummyDNS dummyDNS = new DummyDNS();
+		dummyDNS.init(new String[] {"src/config.txt"});
 		
 		assertNotNull(dummyDNS);
 	}
